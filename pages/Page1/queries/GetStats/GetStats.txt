@@ -1,0 +1,9 @@
+SELECT
+		product_name,
+		COUNT(*) as total_records,
+		MIN(weight) as min_weight,
+		MAX(weight) as max_weight,
+		AVG(weight) as avg_weight,
+		MAX(product_count) as current_count
+FROM sensor_data
+GROUP BY product_name;
