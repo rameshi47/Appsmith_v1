@@ -5,11 +5,20 @@
       {
         "dsl": {
           "backgroundColor": "none",
+          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
           "bottomRow": 930,
+          "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
-          "dynamicBindingPathList": [],
+          "dynamicBindingPathList": [
+            {
+              "key": "borderRadius"
+            },
+            {
+              "key": "boxShadow"
+            }
+          ],
           "dynamicTriggerPathList": [],
           "leftColumn": 0,
           "minHeight": 1292,
