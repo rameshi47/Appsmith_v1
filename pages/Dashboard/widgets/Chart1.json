@@ -2,8 +2,8 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "allowScroll": true,
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 94,
+  "borderRadius": "0.375rem",
+  "bottomRow": 85,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "4ksjomtecx": {
@@ -66,9 +66,6 @@
       "key": "customEChartConfig"
     },
     {
-      "key": "borderRadius"
-    },
-    {
       "key": "boxShadow"
     },
     {
@@ -81,22 +78,27 @@
       "key": "chartData.4ksjomtecx.data"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDataPointClick"
+    }
+  ],
   "flexVerticalAlignment": "start",
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "isLoading": false,
   "isVisible": true,
   "key": "u5rx7lcg2o",
   "labelOrientation": "auto",
-  "leftColumn": 1,
+  "leftColumn": 0,
   "minWidth": 450,
   "mobileBottomRow": 93,
   "mobileLeftColumn": 20,
   "mobileRightColumn": 44,
   "mobileTopRow": 61,
   "needsErrorInfo": true,
-  "originalBottomRow": 93,
-  "originalTopRow": 61,
+  "onDataPointClick": "",
+  "originalBottomRow": 94,
+  "originalTopRow": 62,
   "parentColumnSpace": 10.125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -105,7 +107,7 @@
   "rightColumn": 64,
   "setAdaptiveYMin": true,
   "showDataPointLabel": false,
-  "topRow": 62,
+  "topRow": 53,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "txg5tssud5",
