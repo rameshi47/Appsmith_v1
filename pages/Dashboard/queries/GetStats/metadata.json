@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "697f01bb4b5aa466e195d287_dae72522-47bd-4f4c-a14b-14249c683221",
-  "id": "Page1_GetAllData",
+  "gitSyncId": "697f01bb4b5aa466e195d287_3cc893bc-9402-4931-8ab8-92fd0b5ef157",
+  "id": "Dashboard_GetStats",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM sensor_data ORDER BY created_at DESC;",
+      "body": "SELECT\n\t\tproduct_name,\n\t\tCOUNT(*) as total_records,\n\t\tMIN(weight) as min_weight,\n\t\tMAX(weight) as max_weight,\n\t\tAVG(weight) as avg_weight,\n\t\tMAX(product_count) as current_count\nFROM sensor_data\nGROUP BY product_name;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -13,7 +13,7 @@
           "value": true
         }
       ],
-      "timeoutInMillisecond": 100
+      "timeoutInMillisecond": 1000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -23,8 +23,8 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "GetAllData",
-    "pageId": "Page1",
+    "name": "GetStats",
+    "pageId": "Dashboard",
     "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }

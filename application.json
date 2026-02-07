@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
   "color": "#FBF4ED",
@@ -7,8 +10,11 @@
   "icon": "book",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Dashboard",
       "isDefault": true
     }
-  ]
+  ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  }
 }

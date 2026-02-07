@@ -1,6 +1,6 @@
 {
   "gitSyncId": "697f01bb4b5aa466e195d287_9062c90d-3a7e-410e-b94d-0267136fcd7b",
-  "id": "Page1_GetLatestData",
+  "id": "Dashboard_GetLatestData",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "dynamicBindingPathList": [],
     "name": "GetLatestData",
-    "pageId": "Page1",
+    "pageId": "Dashboard",
     "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
