@@ -13,7 +13,7 @@
           "value": true
         }
       ],
-      "timeoutInMillisecond": 1000
+      "timeoutInMillisecond": 9996
     },
     "confirmBeforeExecute": false,
     "datasource": {
