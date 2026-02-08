@@ -1,0 +1,6 @@
+UPDATE public."employees" SET
+		"employee_name" = '{{update_form.fieldState.employee_name.isVisible ? update_form.formData.employee_name : update_form.sourceData.employee_name}}',
+		"employee_id" = '{{update_form.fieldState.employee_id.isVisible ? update_form.formData.employee_id : update_form.sourceData.employee_id}}',
+    "department" = '{{update_form.fieldState.department.isVisible ? update_form.formData.department : update_form.sourceData.department}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}'
+WHERE "id" = {{data_table.selectedRow.id}};

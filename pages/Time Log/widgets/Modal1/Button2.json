@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0.700rem",
+  "bottomRow": 23,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{!Select1.selectedOptionValue}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "4u2z3j5asa",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 37,
+  "onClick": "{{JSObject1.saveTimeLog()}}",
+  "parentId": "2i9dr1twms",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "text": "Clock In",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "pdw67jaif3",
+  "widgetName": "Button2"
+}

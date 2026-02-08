@@ -1,0 +1,81 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "{{getAllTimeLogs.data.some(l=>l.time_end==undefined&& l.user_id==currentItem.id) ? 'limegreen' : 'grey'}}",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconName": "time",
+  "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6sipw8yyt6",
+  "leftColumn": 58,
+  "logBlackList": {
+    "animateLoading": true,
+    "borderRadius": true,
+    "bottomRow": true,
+    "boxShadow": true,
+    "buttonColor": true,
+    "buttonVariant": true,
+    "displayName": true,
+    "dynamicBindingPathList": true,
+    "hideCard": true,
+    "iconName": true,
+    "iconSVG": true,
+    "isCanvas": true,
+    "isDeprecated": true,
+    "isDisabled": true,
+    "isLoading": true,
+    "isVisible": true,
+    "key": true,
+    "leftColumn": true,
+    "minHeight": true,
+    "parentColumnSpace": true,
+    "parentId": true,
+    "parentRowSpace": true,
+    "renderMode": true,
+    "replacement": true,
+    "rightColumn": true,
+    "searchTags": true,
+    "topRow": true,
+    "type": true,
+    "version": true,
+    "widgetId": true,
+    "widgetName": true
+  },
+  "parentColumnSpace": 5.78125,
+  "parentId": "ydo8ed0yml",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tooltip": "Clock in/out",
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "qf5stt0nt1",
+  "widgetName": "IconButton9CopyCopy"
+}

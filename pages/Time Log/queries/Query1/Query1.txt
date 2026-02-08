@@ -1,0 +1,7 @@
+INSERT INTO employees (employee_name, employee_id, department)
+VALUES (
+    {{employee_name_input.text}},
+    {{employee_id_input.text}},
+    {{department_input.text}}
+)
+RETURNING *;

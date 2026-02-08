@@ -1,0 +1,75 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.100rem",
+  "bottomRow": 83,
+  "boxShadow": "none",
+  "canEscapeKeyClose": true,
+  "canOutsideClickClose": true,
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 280,
+      "boxShadow": "none",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "6i5snc4omt",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 284,
+      "parentColumnSpace": 1,
+      "parentId": "sz7fux5ldx",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 0,
+      "shouldScrollContents": false,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "2i9dr1twms",
+      "widgetName": "Canvas8"
+    }
+  ],
+  "detachFromLayout": true,
+  "displayName": "Modal",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClose"
+    }
+  ],
+  "height": 284,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.4975978e.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "key": "tb04uy1los",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onClose": "{{resetWidget(\"Modal1\",true)}}",
+  "parentColumnSpace": 1,
+  "parentId": "0",
+  "parentRowSpace": 1,
+  "renderMode": "CANVAS",
+  "rightColumn": 0,
+  "shouldScrollContents": true,
+  "topRow": 83,
+  "type": "MODAL_WIDGET",
+  "version": 2,
+  "widgetId": "sz7fux5ldx",
+  "widgetName": "Modal1",
+  "width": 427.5
+}

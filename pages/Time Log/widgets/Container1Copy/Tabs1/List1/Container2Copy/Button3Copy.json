@@ -1,0 +1,88 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{currentItem.time_end !== null}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6mxrybslxf",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 37,
+  "logBlackList": {
+    "animateLoading": true,
+    "bottomRow": true,
+    "buttonColor": true,
+    "buttonVariant": true,
+    "displayName": true,
+    "hideCard": true,
+    "iconSVG": true,
+    "isCanvas": true,
+    "isDefaultClickDisabled": true,
+    "isDisabled": true,
+    "isLoading": true,
+    "isVisible": true,
+    "key": true,
+    "leftColumn": true,
+    "minHeight": true,
+    "parentColumnSpace": true,
+    "parentId": true,
+    "parentRowSpace": true,
+    "placement": true,
+    "recaptchaType": true,
+    "renderMode": true,
+    "rightColumn": true,
+    "text": true,
+    "topRow": true,
+    "type": true,
+    "version": true,
+    "widgetId": true,
+    "widgetName": true
+  },
+  "onClick": "{{JSObject1.clockout()}}",
+  "parentColumnSpace": 5.78125,
+  "parentId": "3pfjrr60u5",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 56,
+  "text": "Clock Out",
+  "topRow": 4,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "gn90kcyot0",
+  "widgetName": "Button3Copy"
+}

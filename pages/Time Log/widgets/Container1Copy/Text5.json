@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "0.75rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "sm2eopm278",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.53125,
+  "parentId": "8yytim7cn9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 52,
+  "shouldTruncate": false,
+  "text": "Last Updated: {{appsmith.store?.updated_at || moment().format('LLL')}}",
+  "textAlign": "LEFT",
+  "textColor": "#716e6e",
+  "topRow": 0,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "4czsvk1dr6",
+  "widgetName": "Text5"
+}

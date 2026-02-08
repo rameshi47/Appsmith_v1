@@ -1,0 +1,97 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "textColor"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "u6pcautxph",
+  "leftColumn": 18,
+  "logBlackList": {
+    "animateLoading": true,
+    "borderRadius": true,
+    "bottomRow": true,
+    "boxShadow": true,
+    "displayName": true,
+    "dynamicBindingPathList": true,
+    "dynamicTriggerPathList": true,
+    "fontFamily": true,
+    "fontSize": true,
+    "fontStyle": true,
+    "hideCard": true,
+    "iconSVG": true,
+    "isCanvas": true,
+    "isDeprecated": true,
+    "isLoading": true,
+    "isVisible": true,
+    "key": true,
+    "leftColumn": true,
+    "minHeight": true,
+    "overflow": true,
+    "parentColumnSpace": true,
+    "parentId": true,
+    "parentRowSpace": true,
+    "renderMode": true,
+    "replacement": true,
+    "rightColumn": true,
+    "searchTags": true,
+    "shouldTruncate": true,
+    "text": true,
+    "textAlign": true,
+    "textColor": true,
+    "textStyle": true,
+    "topRow": true,
+    "truncateButtonColor": true,
+    "type": true,
+    "version": true,
+    "widgetId": true,
+    "widgetName": true
+  },
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentId": "ydo8ed0yml",
+  "renderMode": "CANVAS",
+  "rightColumn": 51,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "text": "{{currentItem.name}}",
+  "textAlign": "LEFT",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textStyle": "HEADING",
+  "topRow": 0,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "806ywykjs2",
+  "widgetName": "Text9CopyCopy"
+}

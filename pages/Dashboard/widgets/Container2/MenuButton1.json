@@ -11,12 +11,15 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "iconName": "menu",
   "isCompact": false,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "nisf1xxqbo",
-  "label": "Open Menu",
+  "label": "",
   "leftColumn": 0,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
@@ -52,15 +55,15 @@
   "mobileRightColumn": 5,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "parentColumnSpace": 20.25,
-  "parentId": "0",
+  "parentColumnSpace": 4.5,
+  "parentId": "b8sfwerlu9",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 5,
+  "rightColumn": 2,
   "topRow": 0,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "tjb4wdg94e",
+  "widgetId": "1q51ym5a7w",
   "widgetName": "MenuButton1"
 }

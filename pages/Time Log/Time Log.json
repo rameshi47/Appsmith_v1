@@ -1,25 +1,16 @@
 {
-  "gitSyncId": "697f01bb4b5aa466e195d287_0f2c43e6-cc95-4193-a3e8-7840925f5146",
+  "gitSyncId": "null_a9ce90b3-b424-480d-a058-cafe00b5b9ed",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-          "bottomRow": 1020,
-          "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+          "bottomRow": 1292,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
-          "dynamicBindingPathList": [
-            {
-              "key": "borderRadius"
-            },
-            {
-              "key": "boxShadow"
-            }
-          ],
+          "dynamicBindingPathList": [],
           "dynamicTriggerPathList": [],
           "leftColumn": 0,
           "minHeight": 1292,
@@ -27,7 +18,7 @@
           "parentRowSpace": 1,
           "rightColumn": 4896,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 125,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -36,7 +27,7 @@
         }
       }
     ],
-    "name": "Dashboard",
-    "slug": "dashboard"
+    "name": "Time Log",
+    "slug": "time-log"
   }
 }

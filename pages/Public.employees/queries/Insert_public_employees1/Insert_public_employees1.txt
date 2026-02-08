@@ -1,0 +1,1 @@
+INSERT INTO public.employees ("employee_name","employee_id","department","created_at") VALUES ('{{(update_form.formData || {}).employee_name}}','{{(update_form.formData || {}).employee_id}}','{{(update_form.formData || {}).department}}','{{(update_form.formData || {}).created_at}}')

@@ -1,0 +1,74 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "buttonColor": "#FF5858",
+  "buttonVariant": "SECONDARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "trash",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "qu8lf50ktl",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 56,
+  "logBlackList": {
+    "animateLoading": true,
+    "borderRadius": true,
+    "bottomRow": true,
+    "boxShadow": true,
+    "buttonColor": true,
+    "buttonVariant": true,
+    "displayName": true,
+    "hideCard": true,
+    "iconName": true,
+    "iconSVG": true,
+    "isCanvas": true,
+    "isDisabled": true,
+    "isLoading": true,
+    "isVisible": true,
+    "key": true,
+    "leftColumn": true,
+    "minHeight": true,
+    "parentColumnSpace": true,
+    "parentId": true,
+    "parentRowSpace": true,
+    "renderMode": true,
+    "rightColumn": true,
+    "topRow": true,
+    "type": true,
+    "version": true,
+    "widgetId": true,
+    "widgetName": true
+  },
+  "onClick": "{{delTimeLog.run(() => getTimeLogs.run(), () => {})}}",
+  "parentColumnSpace": 5.5869140625,
+  "parentId": "3pfjrr60u5",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 4,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "x3ebipdrex",
+  "widgetName": "IconButton3Copy"
+}

@@ -27,8 +27,16 @@
   "icon": "book",
   "pages": [
     {
+      "id": "Time Log",
+      "isDefault": false
+    },
+    {
       "id": "Dashboard",
       "isDefault": true
+    },
+    {
+      "id": "Public.employees",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
