@@ -1,5 +1,6 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": false,
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -41,8 +42,8 @@
   ],
   "columnUpdatedAt": 1769954682430,
   "columnWidthMap": {},
-  "customIsLoading": false,
-  "customIsLoadingValue": "",
+  "customIsLoading": true,
+  "customIsLoadingValue": "{{GetAllData.isLoading}}",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
@@ -79,6 +80,9 @@
     },
     {
       "key": "primaryColumns.current_count.computedValue"
+    },
+    {
+      "key": "customIsLoadingValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -86,7 +90,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSearchTextChanged"
+    }
+  ],
   "enableClientSideSearch": true,
   "endOfData": false,
   "flexVerticalAlignment": "start",
@@ -108,6 +116,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 23,
   "needsErrorInfo": false,
+  "onSearchTextChanged": "",
   "originalBottomRow": 59,
   "originalTopRow": 40,
   "parentColumnSpace": 10.125,

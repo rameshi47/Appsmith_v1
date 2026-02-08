@@ -40,8 +40,8 @@
   ],
   "columnUpdatedAt": 1769954732847,
   "columnWidthMap": {},
-  "customIsLoading": false,
-  "customIsLoadingValue": "",
+  "customIsLoading": true,
+  "customIsLoadingValue": "{{GetLatestData.isLoading}}",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
@@ -75,6 +75,9 @@
     },
     {
       "key": "primaryColumns.created_at.computedValue"
+    },
+    {
+      "key": "customIsLoadingValue"
     }
   ],
   "dynamicPropertyPathList": [
