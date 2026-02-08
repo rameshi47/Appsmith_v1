@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6986b88f2604435ee4f77498_1e1b1188-d495-4d02-8ac6-a755b79ee77d",
-  "id": "Public.employees_Total_record_public_employees1",
+  "gitSyncId": "6986b88f2604435ee4f77498_2e51598f-e13f-4e7d-93a0-c7d0db60b6a7",
+  "id": "Employees Info_Select_public_employees1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT COUNT(*) from public.employees where employee_name ilike '%{{data_table.searchText}}%';",
+      "body": "SELECT\n  *\nFROM\n  public.employees\nWHERE\n  \"employee_name\" ilike '%{{data_table.searchText}}%'\nORDER BY\n  \"{{data_table.sortOrder.column || 'id'}}\" {{data_table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{data_table.pageSize}}\nOFFSET\n  {{data_table.pageOffset}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "Total_record_public_employees1",
-    "pageId": "Public.employees",
+    "name": "Select_public_employees1",
+    "pageId": "Employees Info",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

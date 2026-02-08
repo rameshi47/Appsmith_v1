@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "6986b88f2604435ee4f77498_a4791d9b-d1b3-42b0-83f4-3f387cf45b76",
-  "id": "Public.employees_InsertQuery",
+  "gitSyncId": "6986b88f2604435ee4f77498_73d29fcb-c204-4df8-872a-befbe45fc530",
+  "id": "Employees Info_Insert_public_employees1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"employees\" (\n\t\"employee_name\",\n\t\"employee_id\",\n\t\"department\",\n\t\"created_at\")\nVALUES (\n\t'{{insert_form.formData.employee_name}}',\n\t'{{insert_form.formData.employee_id}}',\n\t'{{insert_form.formData.department}}',\n\t'{{insert_form.formData.created_at}}');",
+      "body": "INSERT INTO public.employees (\"employee_name\",\"employee_id\",\"department\",\"created_at\") VALUES ('{{(update_form.formData || {}).employee_name}}','{{(update_form.formData || {}).employee_id}}','{{(update_form.formData || {}).department}}','{{(update_form.formData || {}).created_at}}')",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "name": "InsertQuery",
-    "pageId": "Public.employees",
-    "runBehaviour": "AUTOMATIC",
+    "name": "Insert_public_employees1",
+    "pageId": "Employees Info",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

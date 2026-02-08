@@ -1,8 +1,18 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 4,
   "boxShadow": "none",
+  "configureMenuItems": {
+    "config": {
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Menu Item"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
   "dynamicBindingPathList": [
     {
       "key": "menuColor"
@@ -11,14 +21,25 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItem3.onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "menu",
   "isCompact": false,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "nisf1xxqbo",
+  "key": "s0xuqehl7v",
   "label": "",
   "leftColumn": 0,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -28,7 +49,8 @@
       "index": 0,
       "isDisabled": false,
       "isVisible": true,
-      "label": "First Menu Item",
+      "label": "Dashboard",
+      "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW');}}",
       "widgetId": ""
     },
     "menuItem2": {
@@ -36,7 +58,8 @@
       "index": 1,
       "isDisabled": false,
       "isVisible": true,
-      "label": "Second Menu Item",
+      "label": "Employees Info",
+      "onClick": "{{navigateTo('Employees Info', {}, 'SAME_WINDOW');}}",
       "widgetId": ""
     },
     "menuItem3": {
@@ -44,26 +67,28 @@
       "index": 2,
       "isDisabled": false,
       "isVisible": true,
-      "label": "Third Menu Item",
+      "label": "Time Log",
+      "onClick": "{{navigateTo('Time Log', {}, 'SAME_WINDOW');}}",
       "widgetId": ""
     }
   },
   "menuItemsSource": "STATIC",
   "menuVariant": "PRIMARY",
-  "mobileBottomRow": 4,
+  "mobileBottomRow": 5,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 5,
-  "mobileTopRow": 0,
+  "mobileRightColumn": 3,
+  "mobileTopRow": 1,
   "needsErrorInfo": false,
   "parentColumnSpace": 4.5,
-  "parentId": "b8sfwerlu9",
+  "parentId": "d89ilojkks",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
   "rightColumn": 2,
+  "sourceData": [],
   "topRow": 0,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "1q51ym5a7w",
+  "widgetId": "qkvlghnbhr",
   "widgetName": "MenuButton1"
 }

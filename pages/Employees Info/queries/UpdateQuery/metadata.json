@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6986b88f2604435ee4f77498_a8d9eabb-8fb2-4ba7-8107-d0b36c034404",
-  "id": "Public.employees_UpdateQuery",
+  "id": "Employees Info_UpdateQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "UpdateQuery",
-    "pageId": "Public.employees",
+    "pageId": "Employees Info",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

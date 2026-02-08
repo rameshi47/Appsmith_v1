@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "6986b88f2604435ee4f77498_87d190dc-605f-474d-a7de-5d84348d1fde",
-  "id": "Public.employees_DeleteQuery",
+  "gitSyncId": "6986b88f2604435ee4f77498_1e1b1188-d495-4d02-8ac6-a755b79ee77d",
+  "id": "Employees Info_Total_record_public_employees1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "DELETE FROM public.\"employees\"\n  WHERE \"id\" = {{data_table.triggeredRow.id}};",
+      "body": "SELECT COUNT(*) from public.employees where employee_name ilike '%{{data_table.searchText}}%';",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "DeleteQuery",
-    "pageId": "Public.employees",
+    "name": "Total_record_public_employees1",
+    "pageId": "Employees Info",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

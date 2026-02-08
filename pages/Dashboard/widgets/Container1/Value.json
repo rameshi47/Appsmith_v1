@@ -49,7 +49,7 @@
   "rightColumn": 64,
   "shouldTruncate": false,
   "text": "{{GetLatestData.data[0].product_name}}",
-  "textAlign": "LEFT",
+  "textAlign": "CENTER",
   "textColor": "#22c55e",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",

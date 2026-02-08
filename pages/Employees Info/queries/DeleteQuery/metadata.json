@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "6986b88f2604435ee4f77498_2e51598f-e13f-4e7d-93a0-c7d0db60b6a7",
-  "id": "Public.employees_Select_public_employees1",
+  "gitSyncId": "6986b88f2604435ee4f77498_87d190dc-605f-474d-a7de-5d84348d1fde",
+  "id": "Employees Info_DeleteQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  public.employees\nWHERE\n  \"employee_name\" ilike '%{{data_table.searchText}}%'\nORDER BY\n  \"{{data_table.sortOrder.column || 'id'}}\" {{data_table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{data_table.pageSize}}\nOFFSET\n  {{data_table.pageOffset}}",
+      "body": "DELETE FROM public.\"employees\"\n  WHERE \"id\" = {{data_table.triggeredRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "Select_public_employees1",
-    "pageId": "Public.employees",
+    "name": "DeleteQuery",
+    "pageId": "Employees Info",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
