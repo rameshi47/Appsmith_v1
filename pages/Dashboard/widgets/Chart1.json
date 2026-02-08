@@ -3,7 +3,7 @@
   "allowScroll": true,
   "animateLoading": true,
   "borderRadius": "0.375rem",
-  "bottomRow": 95,
+  "bottomRow": 106,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "4ksjomtecx": {
@@ -107,7 +107,7 @@
   "rightColumn": 64,
   "setAdaptiveYMin": true,
   "showDataPointLabel": false,
-  "topRow": 63,
+  "topRow": 74,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "txg5tssud5",
