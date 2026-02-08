@@ -42,7 +42,7 @@
   ],
   "columnUpdatedAt": 1769954682430,
   "columnWidthMap": {},
-  "customIsLoading": true,
+  "customIsLoading": false,
   "customIsLoadingValue": "{{GetAllData.isLoading}}",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
