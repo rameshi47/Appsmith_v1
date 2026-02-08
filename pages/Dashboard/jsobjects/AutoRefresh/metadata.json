@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6986b88f2604435ee4f77498_775cad82-2a6c-40d3-bbc0-6fcb7b18f5be",
+  "id": "Dashboard_AutoRefresh",
+  "unpublishedCollection": {
+    "name": "AutoRefresh",
+    "pageId": "Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "intervalId",
+        "value": "null"
+      }
+    ]
+  }
+}

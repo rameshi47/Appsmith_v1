@@ -38,9 +38,11 @@
     "weight",
     "created_at"
   ],
-  "columnUpdatedAt": 1769954732847,
-  "columnWidthMap": {},
-  "customIsLoading": true,
+  "columnUpdatedAt": 1770567541471,
+  "columnWidthMap": {
+    "id": 165
+  },
+  "customIsLoading": false,
   "customIsLoadingValue": "{{GetLatestData.isLoading}}",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -80,11 +82,7 @@
       "key": "customIsLoadingValue"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "tableData"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "enableClientSideSearch": true,
   "endOfData": false,
@@ -107,8 +105,8 @@
   "mobileRightColumn": 53,
   "mobileTopRow": 45,
   "needsErrorInfo": false,
-  "originalBottomRow": 40,
-  "originalTopRow": 8,
+  "originalBottomRow": 47,
+  "originalTopRow": 12,
   "parentColumnSpace": 10.125,
   "parentId": "0",
   "parentRowSpace": 10,

@@ -1,0 +1,49 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "RIGHT",
+  "animateLoading": true,
+  "bottomRow": 11,
+  "boxShadow": "none",
+  "defaultSwitchState": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "rvs25hlod7",
+  "label": "AutoRefresh",
+  "labelPosition": "Left",
+  "labelStyle": "BOLD",
+  "labelTextColor": "#3f3f46",
+  "leftColumn": 58,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 50,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "onChange": "{{AutoRefresh.start();}}",
+  "originalBottomRow": 12,
+  "originalTopRow": 7,
+  "parentColumnSpace": 23.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 7,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "y6e6fmjn4v",
+  "widgetName": "Switch1"
+}
