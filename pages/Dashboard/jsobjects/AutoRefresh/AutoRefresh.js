@@ -12,7 +12,7 @@ export default {
       GetAllData.run();
       GetStats.run();
       console.log('Refreshed at: ' + new Date().toLocaleTimeString());
-    }, 5000); // Refresh every 5 seconds
+    }, 3000); // Refresh every 3 seconds
   },
   
   // Stop auto-refresh
