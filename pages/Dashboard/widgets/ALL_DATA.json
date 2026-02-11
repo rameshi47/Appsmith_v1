@@ -316,7 +316,7 @@
   "searchKey": "",
   "tableData": "{{GetStats.data}}",
   "textSize": "0.875rem",
-  "topRow": 47,
+  "topRow": 45,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
