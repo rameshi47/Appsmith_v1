@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 29,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconName": "dashboard",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vuxb7zi6cu",
+  "leftColumn": 0,
+  "minWidth": 50,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 2,
+  "mobileTopRow": 16,
+  "needsErrorInfo": false,
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
+  "parentColumnSpace": 29.171875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 2,
+  "topRow": 25,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "gmutezq822",
+  "widgetName": "IconButton1Copy"
+}
