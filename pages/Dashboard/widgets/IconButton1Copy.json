@@ -13,7 +13,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "dashboard",
   "isDisabled": false,
   "isLoading": false,
@@ -26,8 +30,9 @@
   "mobileRightColumn": 2,
   "mobileTopRow": 16,
   "needsErrorInfo": false,
-  "originalBottomRow": 25,
-  "originalTopRow": 21,
+  "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 29,
+  "originalTopRow": 25,
   "parentColumnSpace": 29.171875,
   "parentId": "0",
   "parentRowSpace": 10,
