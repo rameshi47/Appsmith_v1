@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 15,
+  "bottomRow": 27,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
@@ -29,9 +29,9 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 16,
-  "topRow": 11,
+  "topRow": 23,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "idm86j8tta",
-  "widgetName": "IconButton1"
+  "widgetId": "d5pykv6laf",
+  "widgetName": "IconButton1Copy1"
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 21,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -34,8 +34,8 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 15,
-  "originalTopRow": 11,
+  "originalBottomRow": 9,
+  "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 4.5,
   "parentId": "uiljjhn4if",
@@ -44,13 +44,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 51,
   "shouldTruncate": false,
-  "text": "Dashboard",
+  "text": "Employees",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 11,
+  "topRow": 17,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "53abncgsm3",
-  "widgetName": "Text1"
+  "widgetId": "ptgti6ut86",
+  "widgetName": "Text1CopyCopy"
 }

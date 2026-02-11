@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 15,
+  "bottomRow": 21,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
@@ -11,7 +11,7 @@
     }
   ],
   "dynamicTriggerPathList": [],
-  "iconName": "dashboard",
+  "iconName": "home",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
@@ -29,9 +29,9 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 16,
-  "topRow": 11,
+  "topRow": 17,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "idm86j8tta",
-  "widgetName": "IconButton1"
+  "widgetId": "wu9etsltql",
+  "widgetName": "IconButton1CopyCopy"
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 27,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -44,13 +44,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 51,
   "shouldTruncate": false,
-  "text": "Dashboard",
+  "text": "Time Log",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 11,
+  "topRow": 23,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "53abncgsm3",
-  "widgetName": "Text1"
+  "widgetId": "rdpba4sx7p",
+  "widgetName": "Text1Copy1"
 }
