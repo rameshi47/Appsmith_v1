@@ -113,7 +113,13 @@
       "key": "resetButtonStyles.borderRadius"
     },
     {
+      "key": "borderRadius"
+    },
+    {
       "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
     },
     {
       "key": "submitButtonStyles.buttonColor"
@@ -153,16 +159,26 @@
     },
     {
       "key": "schema.__root_schema__.children.created_at.accentColor"
-    },
-    {
-      "key": "submitButtonStyles.borderRadius"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"

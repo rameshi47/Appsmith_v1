@@ -14,9 +14,6 @@
     },
     {
       "key": "text"
-    },
-    {
-      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -41,8 +38,8 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 99,
   "needsErrorInfo": false,
-  "originalBottomRow": 4,
-  "originalTopRow": 0,
+  "originalBottomRow": 94,
+  "originalTopRow": 89,
   "overflow": "NONE",
   "parentColumnSpace": 10.203125,
   "parentId": "u3ft9ncfg2",
@@ -53,7 +50,7 @@
   "shouldTruncate": false,
   "text": "{{GetStats.data[0].avg_weight.toFixed(2)}}",
   "textAlign": "CENTER",
-  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textColor": "#22c55e",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
