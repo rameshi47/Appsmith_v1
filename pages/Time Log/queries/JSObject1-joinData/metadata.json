@@ -9,16 +9,20 @@
       "isAsync": false,
       "jsArguments": [
         {
-          "name": "data1"
+          "name": "data1",
+          "value": "{{getTimeLogs.data}}"
         },
         {
-          "name": "data1fk"
+          "name": "data1fk",
+          "value": "user_id"
         },
         {
-          "name": "data2"
+          "name": "data2",
+          "value": "{{getUsers.data}}"
         },
         {
-          "name": "data2pk"
+          "name": "data2pk",
+          "value": "id"
         }
       ],
       "paginationType": "NONE",

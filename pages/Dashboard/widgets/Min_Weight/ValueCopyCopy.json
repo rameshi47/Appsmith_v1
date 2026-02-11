@@ -14,6 +14,9 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -38,8 +41,8 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 99,
   "needsErrorInfo": false,
-  "originalBottomRow": 94,
-  "originalTopRow": 89,
+  "originalBottomRow": 4,
+  "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 10.203125,
   "parentId": "942ra7yney",
@@ -50,7 +53,7 @@
   "shouldTruncate": false,
   "text": "{{GetStats.data[0].min_weight}}",
   "textAlign": "CENTER",
-  "textColor": "#22c55e",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
