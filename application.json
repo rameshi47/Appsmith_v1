@@ -37,6 +37,10 @@
     {
       "id": "Employees Info",
       "isDefault": false
+    },
+    {
+      "id": "Login",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
