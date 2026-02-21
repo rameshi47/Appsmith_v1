@@ -41,6 +41,10 @@
     {
       "id": "Login",
       "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
